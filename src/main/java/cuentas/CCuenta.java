@@ -7,9 +7,16 @@ package cuentas;
  */
 public class CCuenta {
 
+    /** Nombre del titular de la cuenta. */
     private String nombre;
+
+    /** Número de cuenta. */
     private String cuenta;
+
+    /** Saldo actual de la cuenta. */
     private double saldo;
+
+    /** Tipo de interés de la cuenta. */
     private double tipoInterés;
 
     /**
